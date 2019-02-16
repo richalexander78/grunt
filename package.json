@@ -1,0 +1,28 @@
+{
+	"name": "grunt-project",
+	"title": "A simple Grunt project",
+	"version": "0.1.0",
+	"description": "A basic Grunt project to get started.",
+	"homepage": "https://richardjalexander.com",
+	"main": "Gruntfile.js",
+	"author": {
+		"name": "Richard Alexander",
+		"url": "https://richardjalexander.com"
+	},
+	"license": "MIT",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/richalexander78/grunt"
+	},
+	"devDependencies": {
+		"grunt-contrib-sass": "^1.0.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-cssmin": "^3.0.0",
+		"grunt-contrib-uglify": "^4.0.0",
+		"grunt-contrib-watch": "^1.1.0"
+	},
+	"dependencies": {
+		"grunt": "^1.0.3"
+	}
+}
