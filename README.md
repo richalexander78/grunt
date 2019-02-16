@@ -48,6 +48,24 @@ JavaScript files placed in `src/` will be tested with JShint, concatenated and m
 
 A basic HTML file using the css/main.min.css and js/main.min.js but is not required for the project.
 
+## Included Grunt Tasks
+
+`grunt` —
+
+JShint, concatenate and minify JS. Compile Sass with development settings (CSS not minified).
+
+`grunt sass` — Compile Sass to CSS.
+
+`grunt concat` — Concatenate CSS files.
+
+`grunt cssmin` — Minify concatenated CSS.
+
+`grunt uglify` — Minify javascript file(s).
+
+`grunt watch` — Run predefined tasks whenever watched files change.
+
+Watches files for changes and JShint, concatenate and minifies JS. Compiles Sass with development settings and reloads the page (requires the livereload browser plugin). Use `ctrl + c` to stop watching.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
