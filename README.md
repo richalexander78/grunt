@@ -30,7 +30,7 @@ Define project settings in this file. All dependancies are listed here too.
 
 **`Gruntfile.js`** —
 
-This file contains all the tasks to be run. It's heavily commented so check it out.
+This file contains all the tasks to be run.
 
 **`node_modules/`** —
 
