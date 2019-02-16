@@ -18,7 +18,7 @@ Make sure you have Node.js and Grunt installed:
 - Install Grunt's command line interface (CLI) globally with `npm install -g grunt-cli`
 - Install project dependancies with `npm install`. Make sure you're in the project root.
 - Verify Ruby is installed with `ruby -v` (needed for sass)
-- After confirming Ruby is installed, run `gem install sass` to install Sass
+- After confirming Ruby is installed, run `npm install -g sass` to install Sass
 
 You may need to run the install commands as admin, so for Mac, use `sudo npm install`.
 
