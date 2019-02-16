@@ -1,6 +1,6 @@
 # Grunt
 
-Basic project setup with Grunt.
+Basic project setup with Grunt. 
 
 ## What's included?
 
@@ -38,10 +38,10 @@ Required dependancies will be installed here, do not add to version control.
 
 **`css/`** —
 
-- `css/sass.scss` will be compiled too `css/sass.compiled.css`
-- `css/styles.css` and `css/sass.compiled.css` will be concatenated into `css/main.css`
-- `css/main.css` will be minified too `css/main.min.css` 
-- `css/main.min.css` is used in the `index.html`
+- `sass.scss` will be compiled too `sass.compiled.css`
+- `*.css` files including the `sass.compiled.css` (if is exists) will be concatenated into `main.css`
+- `main.css` will be minified too `main.min.css` 
+- `main.min.css` is used in the `index.html`
 
 **`js/`** —
 
@@ -55,14 +55,6 @@ A basic HTML file using the css/main.min.css and js/main.min.js but is not requi
 ## Included Grunt Tasks
 
 `grunt` — ["sass", "concat", "cssmin", "uglify"]
-
-`grunt sass` — Compile Sass to CSS.
-
-`grunt concat` — Concatenate CSS files.
-
-`grunt cssmin` — Minify concatenated CSS.
-
-`grunt uglify` — Minify javascript file(s).
 
 `grunt watch` — Run sass, cssmin and uglify whenever files change.
 
