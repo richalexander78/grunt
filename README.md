@@ -34,7 +34,7 @@ This file contains all the tasks to be run.
 
 **`node_modules/`** —
 
-Required dependancies are installed here, do not add to version control.
+Required dependancies will be installed here, do not add to version control.
 
 **`css/`** —
 
