@@ -44,6 +44,10 @@ Required dependancies will be installed here, do not add to version control.
 
 JavaScript files placed in `src/` will be tested with JShint, concatenated and minified to the root `js/` dir. `vendor/` should be used for vendor scripts, such as jQuery. Vendor scripts will not be tested with JShinted, concatenated or minified by default.
 
+**`index.html`** —
+
+A basic HTML file using the css/main.min.css and js/main.min.js but is not required for the project.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
