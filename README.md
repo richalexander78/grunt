@@ -15,7 +15,7 @@ Basic project setup with Grunt.
 Make sure you have Node.js and Grunt installed:
 
 - Install Node.js from [http://nodejs.org](http://nodejs.org), or if you use [Homebrew](http://brew.sh/): `brew install node`
-- install Grunt's command line interface (CLI) globally with `npm install -g grunt-cli`
+- Install Grunt's command line interface (CLI) globally with `npm install -g grunt-cli`
 - Install project dependancies with `npm install`. Make sure you're in the project root.
 
 You may need to run the install commands as admin, so for Mac, use `sudo npm install`.
