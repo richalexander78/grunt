@@ -38,11 +38,15 @@ Required dependancies will be installed here, do not add to version control.
 
 **`css/`** —
 
-`sass/global.scss` will be compiled too `css/<package-name>.css`. Import all project Sass files in this file.
+- `css/sass.scss` will be compiled too `css/sass.compiled.css`
+- `css/styles.css` and `css/sass.compiled.css` will be concatenated into `css/main.css`
+- `css/main.css` will be minified too `css/main.min.css` 
+- `css/main.min.css` is used in the `index.html`
 
 **`js/`** —
 
-JavaScript files placed in `src/` will be tested with JShint, concatenated and minified to the root `js/` dir. `vendor/` should be used for vendor scripts, such as jQuery. Vendor scripts will not be tested with JShinted, concatenated or minified by default.
+- `main.js` will be  minified to `main.min.js`
+- `main.min.js` is used in the `index.html`
 
 **`index.html`** —
 
@@ -50,9 +54,7 @@ A basic HTML file using the css/main.min.css and js/main.min.js but is not requi
 
 ## Included Grunt Tasks
 
-`grunt` —
-
-JShint, concatenate and minify JS. Compile Sass with development settings (CSS not minified).
+`grunt` — ["sass", "concat", "cssmin", "uglify"]
 
 `grunt sass` — Compile Sass to CSS.
 
@@ -62,9 +64,7 @@ JShint, concatenate and minify JS. Compile Sass with development settings (CSS n
 
 `grunt uglify` — Minify javascript file(s).
 
-`grunt watch` — Run predefined tasks whenever watched files change.
-
-Watches files for changes and JShint, concatenate and minifies JS. Compiles Sass with development settings and reloads the page (requires the livereload browser plugin). Use `ctrl + c` to stop watching.
+`grunt watch` — Run sass, cssmin and uglify whenever files change.
 
 ## Contributing
 
