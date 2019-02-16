@@ -65,19 +65,15 @@ Required dependancies will be installed here, do not add to version control.
 
 **`css/`** —
 
-- `sass.scss` will be compiled too `sass.compiled.css`
-- `*.css` files including the `sass.compiled.css` (if is exists) will be concatenated into `main.css`
-- `main.css` will be minified too `main.min.css` 
-- `main.min.css` is used in the `index.html`
+Contains all scss and css.
 
 **`js/`** —
 
-- `main.js` will be  minified to `main.min.js`
-- `main.min.js` is used in the `index.html`
+Contains all js.
 
 **`index.html`** —
 
-A basic HTML file using the css/main.min.css and js/main.min.js but is not required for the project.
+A basic HTML file utilizing css/main.min.css and js/main.min.js for demostration purposes.
 
 ## Included Grunt Tasks
 
