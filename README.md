@@ -4,7 +4,7 @@ Basic project setup with Grunt.
 
 ### Overview
 
-Using both scss and css; compile the scss  -> concatenating all css -> minify the css  -> use the min.css in index.html.
+Using both scss and css; compile the scss  -> concatenate all css -> minify the css  -> use the min.css in index.html.
 
 **CSS**
 - `styles.css` and `sass.scss` are located in `css/`
