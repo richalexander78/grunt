@@ -79,4 +79,20 @@ A basic HTML file utilizing css/main.min.css and js/main.min.js for demostration
 
 `grunt` — ["sass", "concat", "cssmin", "uglify"]
 
-`grunt watch` — Run sass, cssmin and uglify whenever files change. Use `ctrl + c` to end watch task.
+`grunt watch` — Use `ctrl + c` to end watch task.
+```
+watch: {
+    sass: {
+        files: ['css/*.scss', 'css/*.css'], // watch this folder/extension
+        tasks: ['sass', 'concat', 'cssmin'], // run this task(s) when a change is made	
+    },
+    cssmin: {
+        files: ['css/main.css'],
+        tasks: ['cssmin'],	
+    },
+    uglify: {
+        files: ['js/main.js'],
+        tasks: ['uglify'],	
+    }
+}
+```
