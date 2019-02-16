@@ -2,7 +2,7 @@
 
 Basic project setup with Grunt.
 
-## What's included?
+### What's included?
 
 - "grunt-contrib-sass": "^1.0.0"
 - "grunt-contrib-concat": "^1.0.1"
