@@ -24,6 +24,18 @@ For more information on Grunt, see the [Getting Started](http://gruntjs.com/gett
 
 ## File Structure
 
+**`package.json`** —
+
+Define project settings in this file. All dependancies are listed here too.
+
+**`Gruntfile.js`** —
+
+This file contains all the tasks to be run. It's heavily commented so check it out.
+
+**`node_modules/`** —
+
+Required dependancies are installed here, do not add to version control.
+
 **`css/`** —
 
 `sass/global.scss` will be compiled too `css/<package-name>.css`. Import all project Sass files in this file.
@@ -31,19 +43,6 @@ For more information on Grunt, see the [Getting Started](http://gruntjs.com/gett
 **`js/`** —
 
 JavaScript files placed in `src/` will be tested with JShint, concatenated and minified to the root `js/` dir. `vendor/` should be used for vendor scripts, such as jQuery. Vendor scripts will not be tested with JShinted, concatenated or minified by default.
-
-**`node_modules/`** —
-
-Required dependancies are installed here, do not add to version control.
-
-**`Gruntfile.js`** —
-
-This file contains all the tasks to be run. It's heavily commented so check it out.
-
-**`package.json`** —
-
-Define project settings in this file. All dependancies are listed here too.
-
 
 ## Contributing
 
