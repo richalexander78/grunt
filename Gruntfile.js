@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 				separator: '/* Start of next .css file */',
 			},
 			dist: {
-				src: ['css/*.css'], // concatenate all files with the .css extension
+				src: ['css/styles.css', 'css/sass.compiled.css'], // concatenate these specific files
 				dest: 'css/main.css',
 			}
 		},
